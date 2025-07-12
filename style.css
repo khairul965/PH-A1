@@ -212,7 +212,7 @@ footer{
 }
 
 .footer-tittle{
-    color: #4E47FF;
+    color: #1811e4;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 li{
@@ -230,4 +230,7 @@ footer .container{
 ul{
 display: flex;
 gap: 18px;
+}
+li:hover{
+    background-color:aquamarine;
 }
