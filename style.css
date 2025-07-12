@@ -178,6 +178,7 @@ main input[type="submit"]{
     height: 40px;
     border-radius: 20px;
     color: white;
+    cursor: pointer;
 }
 main input[type="submit"]:hover{
      background-color:darkslateblue;
