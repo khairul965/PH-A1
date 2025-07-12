@@ -1,0 +1,232 @@
+body{
+    background-color: #f3fafdbe;
+}
+header{
+    background-image: url("Assets/Hero-bg.png");
+}
+.navbar{
+    align-items: center;
+    justify-content: center;
+}
+span{
+    color: crimson;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    gap: auto;
+    padding: 0px 50px 0px 50px;
+    text-align: center;
+    margin: auto;
+    
+    
+}
+.logo{
+    color: blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.button{
+    background-color: #4E47FF;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 15px;
+    margin: 2px 2px;
+    cursor: pointer;
+    width: 132px;
+    height: 40px;
+    border-radius: 6px;
+    display: flex;
+}
+.button:hover{
+    background-color:darkslateblue;
+   color: red;
+   
+}
+.head-content{
+    text-align: center;
+    padding: 160px 0px 200px 0px;
+    font-weight: bold;
+}
+.button1{ background-color: #4E47FF;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 175px;
+    height: 48px;
+    border-radius: 6px;
+    
+}
+.button1:hover{
+    background-color:darkslateblue;
+   color: red;
+   
+}
+.action{
+    display: flex;
+    width: 90%;
+    height: 330px;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 100px;
+    
+}
+.action .actoin-con{
+    margin-top: 50%;
+    margin-bottom: 50%;
+    align-items: center;
+    justify-content: center;
+
+}
+.img-mini{
+    border-radius: 30px;
+}
+.button2{
+    background-color: #4E47FF;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 230px;
+    height: 48px;
+    border-radius: 6px;
+    
+}
+.button2:hover{
+    background-color:darkslateblue;
+   color: red;
+   
+}
+.productive{
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    background-color: beige;
+    padding: 50px 80px 50px 80px;
+    border-radius: 50px;
+}
+.productive-items{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+.item-tittle{
+    color: rgb(126, 6, 237);
+    font-family: sans-serif;
+}
+.user-card{
+    display: flex;
+    gap: 50px;
+    padding: 30px;
+    justify-content: space-around;
+}
+.avtr{
+    border-radius: 50px;
+}
+.reviwer{
+    display: flex;
+    gap: 5px;
+}
+.user-say{
+    width: 90%;
+    height: 320px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.user-tittle{
+    text-align: center;
+}
+.card{
+    background-color: beige;
+    padding: 30px;
+    border-radius: 30px; 
+    box-shadow: 0px 20px 20px 0px;
+}
+
+main input[type="text"], main input[type="email"]{
+    height: 50px;
+    border-radius: 8px;
+    background-color: aliceblue;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    color: black;
+}
+main textarea{
+    height: 70px;
+    border-radius: 8px;
+    background-color: aliceblue;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    color: black;
+}
+main input[type="submit"]{
+    background-color: #4E47FF;
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+}
+main input[type="submit"]:hover{
+     background-color:darkslateblue;
+   color: red;
+   
+}
+.lets-get{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    height: 350px;
+   margin: auto;
+    margin-top: 200px;
+    background-color: rgb(200, 236, 224);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-radius: 30px;
+}
+.let-tittle{
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: sans-serif;
+}
+footer{
+    background-color: rgb(215, 221, 221);
+    text-align: center;
+    margin-top: 30px;
+    height: 300px;
+    padding-top: 100px;
+}
+
+.footer-tittle{
+    color: #4E47FF;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+li{
+    list-style-type: none;
+    
+    
+}
+footer .container{
+   align-items: center;
+   justify-content: center;
+   margin-left: 32%;
+   margin-right: 32%;
+    
+}
+ul{
+display: flex;
+gap: 18px;
+}
