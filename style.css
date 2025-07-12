@@ -201,7 +201,7 @@ main input[type="submit"]:hover{
     text-align: center;
     margin-top: auto;
     margin-bottom: auto;
-    font-family: sans-serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 footer{
     background-color: rgb(215, 221, 221);
